@@ -46,4 +46,4 @@ class Highway(Layer):
         config = super().get_config()
         config['activation'] = self.activation
         config['transform_gate_bias'] = self.transform_gate_bias
-return config
+        return config
